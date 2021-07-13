@@ -1,0 +1,32 @@
+[
+   {
+      "title": "Kids sports website",
+      "smallImage": "img/KidsSportsWebsite.png", 
+      "smallImageAlt": "Shows off a website for kids sports that have two kids playing on the front.",
+      "largeImage": "img/KidsSportsWebsiteFull.jpg",
+      "largeImageAlt": "Shows off a website for kids sports with multiple views.",
+      "projectText": "Project #1 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi totam dolor sit aut corrupti perspiciatis ipsam enim praesentium quaerat similique neque laudantium, eos reprehenderit soluta maxime accusamus esse labore porro!",
+      "challengesText" : "Challenges #1 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi totam dolor sit aut corrupti perspiciatis ipsam enim praesentium quaerat similique neque laudantium, eos reprehenderit soluta maxime accusamus esse labore porro!",
+      "technologies": ["HTML","CSS","JavaScript", "C#"]
+   },
+   {
+      "title": "Pet adoption campaign",
+      "smallImage": "img/PetAdoptionCampaign.png", 
+      "smallImageAlt": "Shows off print pieces asking people to adopt pets instead of shopping for them.",
+      "largeImage": "img/PetAdoptionCampaignFull.jpg",
+      "largeImageAlt": "Shows off multiple print peices asking people to adopt pets insted of shopping for them.",
+      "projectText": "Project #2 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi totam dolor sit aut corrupti perspiciatis ipsam enim praesentium quaerat similique neque laudantium, eos reprehenderit soluta maxime accusamus esse labore porro!",
+      "challengesText" : "Challenges #2 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi totam dolor sit aut corrupti perspiciatis ipsam enim praesentium quaerat similique neque laudantium, eos reprehenderit soluta maxime accusamus esse labore porro!",
+      "technologies": ["PDF","InDesign","Custom Clipart Design"]
+   },
+   {
+      "title": "Pub website",
+      "smallImage": "img/PubWebsite.png", 
+      "smallImageAlt": "Shows off a website for a pub. The page has pictures of pizza and pizza making.",
+      "largeImage": "img/PubWebsiteFull.jpg",
+      "largeImageAlt": "Shows off a website for a pub with multiple page views. The pages all have a pizza theme.",
+      "projectText": "Project #3 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi totam dolor sit aut corrupti perspiciatis ipsam enim praesentium quaerat similique neque laudantium, eos reprehenderit soluta maxime accusamus esse labore porro!",
+      "challengesText" : "Challenges #3 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi totam dolor sit aut corrupti perspiciatis ipsam enim praesentium quaerat similique neque laudantium, eos reprehenderit soluta maxime accusamus esse labore porro!",
+      "technologies": ["HTML","CSS","JavaScript", "LocalStorage"]
+   }
+]

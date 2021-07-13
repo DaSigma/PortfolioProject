@@ -79,8 +79,8 @@ header {
    padding: 0.5rem 0 0.5rem 0;
 }
 
-.portfolio-main {
-   margin: .02rem 0;
+#portfolio-main {
+   margin: .025rem 0;
 }
 
 footer {
@@ -194,4 +194,143 @@ footer {
 .work-item-text p,
 .work-item-text ul {
    margin-top: 0;
+}
+
+@media screen and (max-width:600px) {
+   html {
+      font-size: 16PX;
+   }
+
+   h1 {
+      font-size: 3rem;
+   }
+   
+   h2 {
+      font-size: 1.5rem;
+   }
+
+   #portfolio-section > div > a {
+      font-size: 1rem;
+   }
+
+   .highlight a {
+      font-size: 1.5rem;
+   }
+
+}
+
+@media screen and (min-width:601px) and (max-width: 767px) {
+   
+   html {
+      font-size: 24PX;
+   }
+
+   h1 {
+      font-size: 3rem;
+   }
+   
+   h2 {
+      font-size: 1.5rem;
+   }
+
+   #portfolio-section > div > a {
+      font-size: 1rem;
+   }
+
+   .highlight a {
+      font-size: 1.5rem;
+   }
+}
+
+@media screen and (min-width:768px) and (max-width: 991px) {
+   html {
+      font-size: 24PX;
+   }
+
+   h1 {
+      font-size: 3rem;
+   }
+   
+   h2 {
+      font-size: 1.5rem;
+   }
+
+   #portfolio-section > div > a {
+      font-size: 1.5rem;
+   }
+
+   .highlight a {
+      font-size: 1.5rem;
+   }
+}
+
+@media screen and (min-width:992px) and (max-width: 1199px) {
+   html {
+      font-size: 24PX;
+   }
+
+   h1 {
+      font-size: 5rem;
+   }
+   
+   h2 {
+      font-size: 2rem;
+   }
+
+   #portfolio-section > div > a {
+      font-size: 2rem;
+   }
+
+   .highlight a {
+      font-size: 2rem;
+   }
+}
+@media screen and (min-width: 1200px) {
+   
+}
+
+@media print {
+   *,
+   *::before,
+   *::after {
+      background: #fff;
+      color: #000;
+      box-shadow: none !important;
+      text-shadow: none !important;
+      
+   }
+   @page {
+      margin: 1in;
+      size: letter portrait;
+
+   }
+
+   html {
+      font-size: 16px;
+   }
+
+   h1 {
+      font-size: 2rem;
+   }
+
+   h2 {
+      font-size: 2rem;
+   }
+   
+   a {
+      text-decoration: none;
+   }
+
+   a[href]::after {
+      content: "(" attr(href) ")";
+   }
+
+   header, footer {
+      display: none;
+   }
+
+   #work-item-image {
+      width: auto;
+      max-height: 350px;
+   }
 }

@@ -35,12 +35,12 @@
       <div id="contact-me">
          <h2>This is how to contact me</h2>
          <form id="contact-form" action="" method="POST">
-               <label for="name">Name: </label>
-               <input type="text" name="name" id="name" required>
-               <label for="email">Email: </label>
-               <input type="email" name="email" id="email" required>
-               <label for="message">Message: </label>
-               <textarea name="message" id="message" rows="5" required></textarea>
+            <label for="name">Name: </label>
+            <input type="text" name="name" id="name" required>
+            <label for="email">Email: </label>
+            <input type="email" name="email" id="email" required>
+            <label for="message">Message: </label>
+            <textarea name="message" id="message" rows="5" required></textarea>
             <div>
                <button type="submit">Contact Ally</button>
                <button type="reset">Reset</button>
@@ -58,19 +58,26 @@
       <div id="my-story">
          <h2>This is my story</h2>
          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem eius dolorum eos, rerum eum accusantium cupiditate fuga molestiae sunt dolores dolore quae magnam ducimus placeat et quo! Voluptatum provident quam, reprehenderit rerum libero maiores accusamus sit? Voluptas explicabo sit placeat maxime beatae excepturi sed, aspernatur cupiditate reiciendis praesentium? At, perspiciatis!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem eius dolorum eos, rerum eum accusantium
+            cupiditate fuga molestiae sunt dolores dolore quae magnam ducimus placeat et quo! Voluptatum provident quam,
+            reprehenderit rerum libero maiores accusamus sit? Voluptas explicabo sit placeat maxime beatae excepturi
+            sed, aspernatur cupiditate reiciendis praesentium? At, perspiciatis!
          </p>
          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo animi obcaecati rerum perspiciatis nisi praesentium saepe in dolore ad exercitationem, odit atque earum nam pariatur veritatis voluptates facere beatae quis.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo animi obcaecati rerum perspiciatis nisi
+            praesentium saepe in dolore ad exercitationem, odit atque earum nam pariatur veritatis voluptates facere
+            beatae quis.
          </p>
       </div>
    </main>
 
    <footer>
-      &copy; 2021 by Ally Reynolds
+      &copy;<span id="copyrightYear"></span> by Ally Reynolds
    </footer>
    <script src="js/app.js"></script>
-   <script></script>
+   <script>
+      app.homepage();
+   </script>
 </body>
 
 </html>
